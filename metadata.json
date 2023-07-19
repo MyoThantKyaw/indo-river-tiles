@@ -1,0 +1,70 @@
+{
+    "name": "river_tiles",
+    "description": "river_tiles",
+    "version": "2",
+    "minzoom": "0",
+    "maxzoom": "7",
+    "center": "139.218750,-4.213679,7",
+    "bounds": "99.360708,-8.084264,140.756608,2.937956",
+    "type": "overlay",
+    "format": "pbf",
+    "generator": "tippecanoe v1.36.0",
+    "generator_options": "tippecanoe -zg --force -e river_tiles --no-tile-compression rivers.geojson",
+    "vector_layers": [
+        {
+            "id": "rivers",
+            "description": "",
+            "minzoom": 0,
+            "maxzoom": 7,
+            "fields": {
+                "id": "Number"
+            }
+        }
+    ],
+    "tilestats": {
+        "layerCount": 1,
+        "layers": [
+            {
+                "layer": "rivers",
+                "count": 24,
+                "geometry": "LineString",
+                "attributeCount": 1,
+                "attributes": [
+                    {
+                        "attribute": "id",
+                        "count": 24,
+                        "type": "number",
+                        "values": [
+                            1,
+                            10,
+                            11,
+                            12,
+                            13,
+                            14,
+                            15,
+                            16,
+                            17,
+                            18,
+                            19,
+                            2,
+                            20,
+                            21,
+                            22,
+                            23,
+                            24,
+                            3,
+                            4,
+                            5,
+                            6,
+                            7,
+                            8,
+                            9
+                        ],
+                        "min": 1,
+                        "max": 24
+                    }
+                ]
+            }
+        ]
+    }
+}
